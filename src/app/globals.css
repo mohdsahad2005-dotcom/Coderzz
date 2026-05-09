@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1E4334;
+  --secondary: #D3E8D5;
+  --background: #FAFCFB;
+  --charcoal: #1A1A1A;
+}
+
+body {
+  color: var(--charcoal);
+  background: var(--background);
+  font-family: 'Inter', sans-serif;
+}
